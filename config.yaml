@@ -1,0 +1,13 @@
+qc-tm:
+  preprocessing:
+    maxlen: 20
+    cosine_threshold: 0.7
+    pmi_threshold: 0.5
+    num_words: 10000
+    index_from: 2
+  training:
+    epochs: 10
+    s: 1.0
+    T: 10000
+    clauses: 10000
+
