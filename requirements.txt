@@ -1,0 +1,17 @@
+yaml
+"ruamel-yaml<0.18"
+--upgrade keras 
+-U datasets 
+-U "jax[cuda12]"
+torch torchvision torchaudio
+git+https://github.com/cair/tmu.git
+git+https://github.com/cair/tmu.git@dev
+git+https://github.com/cair/PySparseCoalescedTsetlinMachineCUDA.git
+scikit-learn
+numpy
+keras
+tensorflow
+pyarrow
+kagglehub
+transformers # for BERT tokenizer
+git+https://github.com/cair/pyTsetlinMachine.git

@@ -1,5 +1,6 @@
 qc-tm:
   preprocessing:
+    dataset_name: "cr" # cr, subj, pc
     maxlen: 20
     cosine_threshold: 0.7
     pmi_threshold: 0.5
